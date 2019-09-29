@@ -1,4 +1,4 @@
 'use strict';
-angular.module('songList',[]);
+angular.module('songList',['songService']);
 
 

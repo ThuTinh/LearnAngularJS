@@ -8,6 +8,9 @@ angular.module('songManager')
     when('/songs/:id',{
         template: '<song-detail></song-detail>'
     }).
+    when('/songs/add',{
+        template: '<song-detail></song-detail>'
+    }).
     otherwise('/songs');
 }
 );

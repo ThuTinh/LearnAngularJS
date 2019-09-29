@@ -1,4 +1,4 @@
 'use strict';
-angular.module('songDetail',[]);
+angular.module('songDetail',['songService','ngRoute']);
 
 
